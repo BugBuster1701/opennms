@@ -18,7 +18,7 @@
       <mibObj oid=".1.3.6.1.4.1.2620.1.1.25.4" instance="0" alias="fwPeakNumConn" type="integer"/>
    </group>
    <systemDef name="CheckPoint">
-      <sysoid>.1.3.6.1.4.1.2620.1.6.123.1.47</sysoid>
+      <sysoidMask>.1.3.6.1.4.1.2620.1.6.123.1.</sysoidMask>
       <collect>
          <includeGroup>checkpoint</includeGroup>
       </collect>
